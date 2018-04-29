@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+</head>
+<body>
+    <div class="container">
+      <div class="calculator">
+          <div id="calculation">
+          </div>
+          <div id="input">
+          </div>
+        </div>
+        <form name="calculadora" class="botao">
+          <input type="" id= "visor" name="ans" value="">
+          <input type="button" id="c" class="clear" value="AC" onClick="calculadora.ans.value+='AC'"><span></span></input>
+          <input type="button" id="ce" class="clear" value="+/-" onClick="calculadora.ans.value+='+/-'"><span></span></input>
+          <input type="button" id="del" class="clear" value="%" onClick="calculadora.ans.value+='%'"><span></span></input>
+          <input type="button" id="igual" class="operator" value="&divide;" onClick="calculadora.ans.value+='&divide;'"></input>
+    
+          <input type="button" id="7" class="number" value="7" onClick="calculadora.ans.value+='7'"></input>
+          <input type="button" id="8" class="number" value="8" onClick="calculadora.ans.value+='8'"></input>
+          <input type="button" id="9" class="number" value="9" onClick="calculadora.ans.value+='9'"></input>
+          <input type="button" id="*" class="operator" value="&times;" onClick="calculadora.ans.value+='&times;'"></input>
+  
+          <input type="button" id="4" class="number" value="4" onClick="calculadora.ans.value+='4'"></input>
+          <input type="button" id="5" class="number" value="5" onClick="calculadora.ans.value+='5'"></input>
+          <input type="button" id="6" class="number" value="6" onClick="calculadora.ans.value+='6'"></input>
+          <input type="button" id="-" class="operator" value="-" onClick="calculadora.ans.value+='-'"></input>
+    
+          <input type="button" id="1" class="number" value="1" onClick="calculadora.ans.value+='1'"></input>
+          <input type="button" id="2" class="number" value="2" onClick="calculadora.ans.value+='2'"></input>
+          <input type="button" id="3" class="number" value="3" onClick="calculadora.ans.value+='3'"></input>
+          <input type="button" id="+" class="operator" value="+" onClick="calculadora.ans.value+='+'"></input>
+        
+          <input type="button" class="zero" id="delete" value="   0" onClick="calculadora.ans.value+='0'"></input>
+          <input type="button" id="." class="dot" value="," onClick="calculadora.ans.value+=','"></input>
+          <input type="button" id="=" class="equal" value="=" onClick="calculadora.ans.value+='='"></input>
+        </form>
+      </div>
+    
+    </div>
+    
+</body>
+</html>
